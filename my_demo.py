@@ -13,3 +13,7 @@ driver.find_element_by_xpath('//*[@id="uitk-tabs-button-container"]/li[2]/a').cl
 
 time.sleep(2)
 
+driver.find_element_by_xpath('//*[@id="wizard-flight-tab-roundtrip"]/div/div[1]/div/div[1]/div/div/div/button[1]').send_keys('Indore (IDR-Devi Ahilyabai Holkar Intl.)')
+
+
+driver.close()
