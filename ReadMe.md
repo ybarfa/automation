@@ -1,0 +1,21 @@
+Step1: 
+Step2: 
+Step3: 
+
+step4: this is simply create push to README.md 
+	echo "# automation" >> README.md
+
+
+git init
+git add README.md
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/ybarfa/automation.git
+git push -u origin master
+
+
+git branch <branch name> 
+git checkout <master/develop/hotfix>
+
+
+
