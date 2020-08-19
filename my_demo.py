@@ -15,5 +15,7 @@ time.sleep(2)
 
 driver.find_element_by_xpath('//*[@id="wizard-flight-tab-roundtrip"]/div/div[1]/div/div[1]/div/div/div/button').send_keys('Indore (IDR-Devi Ahilyabai Holkar Intl.)')
 driver.find_element_by_xpath('//*[@id="wizard-flight-tab-roundtrip"]/div/div[1]/div/div[3]/div/div/div/button[1]').send_keys("New York (NYC-All Airports)")
+driver.find_element_by_xpath('//*[@id="d1-btn"]').send_keys("sep 2")
+driver.find_element_by_xpath('//*[@id="d2-btn"]').send_keys("sep 3")
 
 driver.close()
