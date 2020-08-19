@@ -1,6 +1,6 @@
-Step1: 
-Step2: 
-Step3: 
+Step1: Create a Repository
+Step2: Create a Branch
+Step3: Make and commit changes 
 
 step4: this is simply create push to README.md 
 	echo "# automation" >> README.md
