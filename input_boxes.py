@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+import time
 driver=webdriver.Chrome(executable_path="D:\\softwares\\gekodriver/\chromedriver.exe")
 
 driver.get('https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407')
@@ -25,6 +25,5 @@ print("enabled or not:", status)
 driver.find_element(By.ID,'RESULT_TextField-1').send_keys("yash")
 driver.find_element(By.ID,'RESULT_TextField-2').send_keys("barfa")
 driver.find_element_by_id('RESULT_TextField-3').send_keys("1234567890")
-
-
-
+time.sleep(5)
+driver.close()
