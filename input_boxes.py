@@ -18,12 +18,5 @@ print("Displayed or not:", status)  # gives either True/False
 status=driver.find_element(By.ID,'RESULT_TextField-1').is_enabled()
 print("enabled or not:", status)
 
-# How to provide value into text box
-
-
-
-driver.find_element(By.ID,'RESULT_TextField-1').send_keys("yash")
-driver.find_element(By.ID,'RESULT_TextField-2').send_keys("barfa")
-driver.find_element_by_id('RESULT_TextField-3').send_keys("1234567890")
-time.sleep(5)
+# How to provide value 
 driver.close()
