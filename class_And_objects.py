@@ -13,3 +13,20 @@ class Student:
 
 myobj = Student("yash", 20, 75)
 print(myobj.talk())
+
+
+
+
+
+class Test:
+
+    def __init__(self):
+        print("Constructer exeuction")
+
+    def m1(self):
+        print("Method exeuction")
+
+t1=Test()
+t2=Test()
+t3=Test()
+t1.m1()
