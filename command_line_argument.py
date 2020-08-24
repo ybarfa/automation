@@ -1,3 +1,5 @@
+# COMMAND LINE ARGUMENT #
+
 from sys import argv
 print("the number of command line argument:",len(argv))
 print("the list of command line argument:",argv)
