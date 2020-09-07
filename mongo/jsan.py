@@ -8,6 +8,7 @@ mycollection=mydb['student']
 # my_many_records_2=[{"name":"jay","rollno":2,"subject":"science","marks":89}]
 # x=mycollection.insert_many(my_many_records_2)
 # my_many_records_3=[{"name":"aman","rollno":3,"subject":"hindi","marks":78}]
+
 # x=mycollection.insert_many(my_many_records_3)
 
 myquery = { "marks": "88" }
