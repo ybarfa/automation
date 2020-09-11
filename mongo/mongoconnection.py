@@ -10,3 +10,4 @@ mycollection.update_one(myquery, newvalues)
 #print "customers" after the update:
 for x in mycollection.find():
   print(x)
+
