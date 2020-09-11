@@ -18,3 +18,4 @@ mycollection.update_one(myquery, newvalues)
 
 for x in mycollection.find():
   print(x)
+
