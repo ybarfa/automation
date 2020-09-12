@@ -8,4 +8,4 @@ while i <=n:
     i=i+1
 print("name of students","\t","% of marks")
 for x in rec:
-    print("\t",x,"\t",rec[x])
+    print("\t",x,"\t\t\t\t",rec[x])
