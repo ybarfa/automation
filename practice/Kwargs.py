@@ -7,3 +7,4 @@ def person(name, **data):
         print(i,j)
 
 person('Yash',age=20, city='Indore', mob=9876543210)
+
