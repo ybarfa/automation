@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import time
 
-driver=webdriver.Chrome(executable_path="D:\\softwares\\gekodriver/\chromedriver.exe")
+driver=webdriver.Firefox()
 
 driver.get('https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407')
 

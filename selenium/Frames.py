@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver=webdriver.Chrome(executable_path="D:\\softwares\\gekodriver/\chromedriver.exe")
+driver=webdriver.Firefox()
 
 driver.get('https://www.selenium.dev/selenium/docs/api/java/index.html')
 

@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver=webdriver.Chrome(executable_path="D:\\softwares\\gekodriver/\chromedriver.exe")
+driver=webdriver.Firefox()
 
 driver.get("https://www.countries-ofthe-world.com/flags-of-the-world.html")
 

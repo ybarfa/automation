@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver=webdriver.Chrome(executable_path="D:\\softwares\\gekodriver\\chromedriver.exe")
+driver=webdriver.Firefox()
 
 driver.get('https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407')
 
@@ -21,3 +21,6 @@ print(status)
 driver.find_element_by_xpath('//*[@id="q15"]/table/tbody/tr[1]/td/label').click()
 driver.find_element_by_xpath('//*[@id="q15"]/table/tbody/tr[2]/td/label').click()
 driver.find_element_by_xpath('//*[@id="q15"]/table/tbody/tr[5]/td/label').click()
+
+time.sleep(3)
+driver.close()
