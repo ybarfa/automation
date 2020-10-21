@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver=webdriver.Firefox()
+driver = webdriver.Firefox()
 
 driver.get("https://www.countries-ofthe-world.com/flags-of-the-world.html")
 
