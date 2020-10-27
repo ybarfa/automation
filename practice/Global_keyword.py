@@ -1,17 +1,18 @@
 
-a=10
+a = 10
 print(id(a))
 
+
 def something():
-    a=9
+    a = 9
 
-    x=globals()['a']
+    x = globals()['a']
     print(id(x))
-    print("in fun",a)
+    print("in fun", a)
 
-    globals()['a']=15
+    globals()['a'] = 15
 
 
 something()
 
-print("outside",a)
+print("outside", a)

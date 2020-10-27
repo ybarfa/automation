@@ -5,15 +5,16 @@ def count(lst):
     odd = 0
 
     for i in lst:
-        if i%2==0:
-            even+=1
+        if i % 2 == 0:
+            even += 1
         else:
-            odd+=1
+            odd += 1
 
-    return even,odd
+    return even, odd
 
-lst=[20,25,14,19,16,24,28,47,26]
 
-even,odd=count(lst)
+lst = [20, 25, 14, 19, 16, 24, 28, 47, 26]
 
-print("Even:{}  and  Odd:{}".format(even,odd))
+even, odd = count(lst)
+
+print("Even:{}  and  Odd:{}".format(even, odd))
