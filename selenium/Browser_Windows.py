@@ -1,4 +1,5 @@
 from selenium import webdriver
+import time
 
 driver = webdriver.Firefox()
 
@@ -14,6 +15,7 @@ for handle in handles:
     driver.switch_to.window(handle)
     print(driver.title)
     if driver.title == "Frames & windows":
+        time.sleep(5)
         driver.close()
 
 driver.quit()

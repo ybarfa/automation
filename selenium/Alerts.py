@@ -13,6 +13,6 @@ time.sleep(5)
 
 driver.switch_to.alert.dismiss()  # Closes alerts by using Cancel button
 
-time.sleep(10)
+time.sleep(5)
 
 driver.close()
